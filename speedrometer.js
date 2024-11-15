@@ -1,5 +1,3 @@
-
-
 /* VARIAVEIS */
 
 const speedElement = document.querySelector("#speed");
@@ -10,7 +8,7 @@ const stopBtn = document.querySelector("#stop");
 let watchID = null;
 let currentRide = null;
 
-/* FUNÇÕES */
+/* FUNÇÃO PARA INICIAR A CORRIDA */
 
 startBtn.addEventListener("click", () =>{
     if (watchID)
@@ -25,7 +23,7 @@ startBtn.addEventListener("click", () =>{
     function handleError(error){
         console.log(error.msg);
     }
-
+ 
     const options = {enableHighAccuracy: true};
     
     currentRide = creatNewRide()
