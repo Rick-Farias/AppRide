@@ -1,6 +1,24 @@
 {
   "dependencies": {
     "@ngrok/ngrok": "^1.4.1",
+    "@prisma/client": "^5.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
     "ngrok": "^5.0.0-beta.2"
-  }
+  },
+  "name": "appride",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
